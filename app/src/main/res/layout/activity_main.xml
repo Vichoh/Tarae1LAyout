@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    style="?android:attr/buttonBarStyle"
+    android:background="#fcfcfe">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagenDragonair"
+        android:src="@drawable/dragonairicono"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:background="#561e258b"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagenMagmar"
+        android:src="@drawable/magmaricono"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_gravity="center"
+        android:background="#d7411112" />
+
+
+</LinearLayout>
+
+
